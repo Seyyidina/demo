@@ -5,7 +5,7 @@ pipeline {
 
             agent {
                 docker {
-                    image '4.0.0-rc-5-amazoncorretto-25-debian'
+                    image 'maven:3.9.11-eclipse-temurin-21'
                     args '-u root --entrypoint='
                 }
             }
